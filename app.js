@@ -22,7 +22,7 @@ app.get("/login", (req, res) => {
 });
 
 //Levantando el Servidor
-
-app.listen(3030,() =>{
-    console.log('Servidor corriendo en el puerto 3001');
+const port= process.env.PORT || 3030;
+app.listen(port,() =>{
+    console.log(`Servidor corriendo en el puerto ${port}`);
 })

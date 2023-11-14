@@ -97,7 +97,7 @@ main{
 }
 .articulo:hover .descripcion{
     display: unset;
-
+    
 }
 .articulo:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -238,3 +238,4 @@ a.botonformulario{
    flex-direction: column;
    gap: 1rem;
 }
+
